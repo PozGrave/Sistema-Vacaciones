@@ -1,0 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  background: url(./BackgroundImages/bg1.jpg) no-repeat center top;
+  background-size: cover;
+  backdrop-filter: blur(10px);
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #5dade2;
+}
+#sidebar ul li {
+  color: gainsboro;
+  text-align: center;
+  padding: 10px 5px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.3);
+}
+.logotype {
+  display: block;
+  margin: 0 auto;
+}
