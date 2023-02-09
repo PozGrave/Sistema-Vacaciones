@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+.signinbox {
+  width: 320px;
+  height: 700px;
+  background: #5dade2;
+  color: #fff;
+  top: 50%;
+  left: 50%;
+  position: absolute;
+  transform: (-50%, -50%);
+  box-sizing: border-box;
+  padding: 70px 30px;
+}
+.signinbox h1 {
+  margin: 0;
+  padding: 0 0 20px;
+  text-align: center;
+  font-size: 22px;
+}
+.signinbox label {
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+  display: block;
+}
+.signinbox input {
+  width: 100%;
+  margin-bottom: 20px;
+}
+.signinbox input[type="text"],
+[type="tel"],
+[type="email"],
+[type="text"],
+[type="date"],
+[type="date"] {
+  border: none;
+  border-bottom: 1px solid #fff;
+  background: transparent;
+  outline: none;
+  height: 40px;
+  color: #fff;
+  font-size: 15px;
+}
+#signupbtn {
+  border: none;
+  outline: none;
+  background: darkblue;
+  height: 40px;
+  color: #fff;
+  font-size: 15px;
+  text-align: center;
+}
+/*Barra lateral*/
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #5dade2;
+}
+#sidebar ul li {
+  color: gainsboro;
+  text-align: center;
+  padding: 10px 5px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.3);
+}
+.logotype {
+  display: block;
+  margin: 0 auto;
+}
+#signup {
+  position: relative;
+  text-align: center;
+}

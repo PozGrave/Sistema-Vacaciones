@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #5dade2;
+}
+#sidebar ul li {
+  color: gainsboro;
+  text-align: center;
+  padding: 10px 5px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.3);
+}
+.logotype {
+  display: block;
+  margin: 0 auto;
+}
