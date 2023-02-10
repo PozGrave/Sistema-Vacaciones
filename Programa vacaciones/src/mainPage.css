@@ -2,6 +2,18 @@ body {
   margin: 0;
   padding: 0;
   font-family: Arial;
+  /*background: url(./BackgroundImages/bg1.jpg) no-repeat center top;
+  background-size: cover;
+   height: 100vh;
+    background-size: blur(10px, background-size 100px 100px);
+    min-height: 100%;
+  max-height: 100%;
+  backdrop-filter: blur(10px 100%);
+  */
+  background-image: url(./BackgroundImages/bg1blur.jpg);
+  background-repeat: norepeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
 }
 
 #sidebar {
