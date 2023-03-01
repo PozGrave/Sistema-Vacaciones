@@ -1,0 +1,34 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial;
+  /*background: url(./BackgroundImages/bg1.jpg) no-repeat center top;
+  background-size: cover;
+   height: 100vh;
+    background-size: blur(10px, background-size 100px 100px);
+    min-height: 100%;
+  max-height: 100%;
+  backdrop-filter: blur(10px 100%);
+  */
+  background-image: url(./BackgroundImages/bg1blur.jpg);
+  background-repeat: norepeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+
+#sidebar {
+  position: fixed;
+  width: 200px;
+  height: 100%;
+  background: #5dade2;
+}
+#sidebar ul li {
+  color: gainsboro;
+  text-align: center;
+  padding: 10px 5px;
+  border-bottom: 1px solid rgba(220, 220, 220, 0.3);
+}
+.logotype {
+  display: block;
+  margin: 0 auto;
+}
